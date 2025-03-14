@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>HUD Révolutionnaire 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="status-container">
+        <div class="stat" id="health">
+            <span class="label">Santé</span>
+            <div class="bar-container">
+                <div class="bar red-bar" id="health-bar" style="width: 100%;"></div>
+            </div>
+        </div>
+        <div class="stat" id="armour">
+            <span class="label">Armure</span>
+            <div class="bar-container">
+                <div class="bar blue-bar" id="armour-bar" style="width: 0%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bottom-right-hud">
+        <div class="stat" id="hunger">
+            <span class="label">Faim</span>
+            <div class="bar-container">
+                <div class="bar orange-bar" id="hunger-bar" style="width: 100%;"></div>
+            </div>
+        </div>
+        <div class="stat" id="thirst">
+            <span class="label">Soif</span>
+            <div class="bar-container">
+                <div class="bar blue-bar" id="thirst-bar" style="width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
